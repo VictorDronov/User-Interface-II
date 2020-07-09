@@ -11,9 +11,8 @@ html{
 
 /*Start of the Header Section*/
 
-/* header, nav, h1, button, div{
-    border: solid 2px grey;
-}*/
+
+/*navigation boxes on the uppder right hand side*/
 header .nav-box{ 
     background-color: darkslategray;
 }
@@ -27,10 +26,27 @@ header .nav-box nav{
     justify-content: space-evenly;
     align-content: center;
 }
-.buttons{
+.links{
+    font-size: 25px;
     justify-content:space-evenly;
     align-items:center;
 }
+.links a{
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: ghostwhite;
+    border: 2px solid darkslategray;
+}
+.links a:hover{
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    color: lightgrey;
+    box-sizing: border-box;
+}
+
+/*End of the navigation boxes on the upper right hand side*/
 h1{
     display: flex;
     font-family: 'Bangers', cursive;
@@ -44,7 +60,7 @@ h1{
 .top-img{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 2.5% auto;
     width:50%;
 }
 /*End of the Header section*/
@@ -77,7 +93,6 @@ h1{
 
 /*Start Of The Footer Section*/
 footer{
-    background-color: moccasin;
     margin: 3% auto;
     font-size: 40px;
     font-family: 'Bangers', cursive;
@@ -85,16 +100,18 @@ footer{
 }
 .footer-box{
     border: 1px solid black;
-    background-color: moccasin;
+    background-color: darkslategray;
 }
 
 .contact{
-    color: #A9C3F4;
+    color: ghostwhite;
     text-decoration: none;
 }
 .contact:hover{
-    color: gray;
+    color: lightgray;
     text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.8s;
 }
 
 
