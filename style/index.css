@@ -1,21 +1,21 @@
-/* Add CSS styling here */
-/*all*/
+/*Start of the all section*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 *{
     /* border: solid 1px black; */
-    /* background-color: rgb(29, 95, 161); */
     max-width: 100%;
 }
 html{
     font-size: 62.5%;
 }
-/*Header*/
-header, nav, h1, button, div{
+/*End of the all section*/
+
+/*Start of the Header Section*/
+
+/* header, nav, h1, button, div{
     border: solid 2px grey;
-}
-header h1{
-    display: flex;
-    width: 15%;
+}*/
+header .nav-box{ 
+    background-color: darkslategray;
 }
 header .nav-box{
     display: flex;
@@ -33,11 +33,13 @@ header .nav-box nav{
 }
 h1{
     display: flex;
-    justify-content: left;
     font-family: 'Bangers', cursive;
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-right: auto;
+    width: 15%;
+    color: ghostwhite;
+    justify-content: center;
 }
 .top-img{
     display: flex;
@@ -45,10 +47,10 @@ h1{
     margin: 0 auto;
     width:50%;
 }
+/*End of the Header section*/
 
-/*All Images*/
+/*Start of the Mid section*/
 
-/*Mid section*/
 .outside-section{
     width: 100%;
 }
@@ -71,4 +73,34 @@ h1{
 .inside-botom-div div{
     width: 25%;
 }
-/*Footer*/
+/*End of the middle Section*/
+
+/*Start Of The Footer Section*/
+footer{
+    background-color: moccasin;
+    margin: 3% auto;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+.footer-box{
+    border: 1px solid black;
+    background-color: moccasin;
+}
+
+.contact{
+    color: #A9C3F4;
+    text-decoration: none;
+}
+.contact:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*End of the Footer Section*/
