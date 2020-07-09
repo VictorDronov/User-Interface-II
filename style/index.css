@@ -41,9 +41,10 @@ header .nav-box nav{
     font-family: 'Bangers', cursive;
     text-decoration: none;
     letter-spacing: 2px;
-    transition: 0.5s;
-    color: lightgrey;
+    transition: 0.9s;
+    color: rgb(119, 10, 10);
     box-sizing: border-box;
+    transform: scale(1.5);
 }
 
 /*End of the navigation boxes on the upper right hand side*/
@@ -108,9 +109,9 @@ footer{
     text-decoration: none;
 }
 .contact:hover{
-    color: lightgray;
+    color: rgb(119, 10, 10);
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     transition: 0.8s;
 }
 
