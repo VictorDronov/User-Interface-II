@@ -1,1 +1,56 @@
 /* Add CSS styling here */
+/*all*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    /* border: solid 1px black; */
+    /* background-color: rgb(29, 95, 161); */
+    max-width: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+/*Header*/
+header, nav, h1, button, div{
+    border: solid 2px grey;
+}
+h1{
+    display: flex;
+    justify-content: left;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-right: auto;
+}
+.top-img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width:50%;
+}
+
+/*All Images*/
+
+/*Mid section*/
+.outside-section{
+    width: 100%;
+}
+
+.inside-top-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 3% auto;
+}
+.inside-top-div div{
+    width: 25%;
+}
+.inside-botom-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 3% auto;
+}
+.inside-botom-div div{
+    width: 25%;
+}
+/*Footer*/
