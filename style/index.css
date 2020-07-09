@@ -1,3 +1,6 @@
+/* ------------------------ */
+/*THIS IS FOR THE MAIN PAGE */
+
 /*Start of the all section*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 *{
@@ -58,12 +61,20 @@ h1{
     color: ghostwhite;
     justify-content: center;
 }
+/*top img section start*/
 .top-img{
     display: flex;
     justify-content: center;
     margin: 2.5% auto;
     width:50%;
 }
+.top-img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/*End of the Top img section*/
+
 /*End of the Header section*/
 
 /*Start of the Mid section*/
@@ -122,3 +133,6 @@ footer{
 
 
 /*End of the Footer Section*/
+
+/*THIS IS FOR THE MAIN PAGE END*/
+/* --------------------------- */
