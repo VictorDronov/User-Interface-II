@@ -13,6 +13,24 @@ html{
 header, nav, h1, button, div{
     border: solid 2px grey;
 }
+header h1{
+    display: flex;
+    width: 15%;
+}
+header .nav-box{
+    display: flex;
+    width: 100%;
+}
+header .nav-box nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.buttons{
+    justify-content:space-evenly;
+    align-items:center;
+}
 h1{
     display: flex;
     justify-content: left;
