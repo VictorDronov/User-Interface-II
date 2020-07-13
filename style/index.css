@@ -60,10 +60,8 @@ table {
 /*Start of the all section*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-*{
-    font-family: 'Bangers', cursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@577&family=Trade+Winds&display=swap');
+
 body{
     /* border: solid 1px black; */
     /* width: 100%; */
@@ -106,13 +104,13 @@ header .nav-box .links{
     width: 50%
 }
 .links a{
-    font-family: 'Bangers', cursive;
+    font-family: 'Inconsolata', monospace;    
     text-decoration: none;
     color: ghostwhite;
     border: 2px solid darkslategray;
 }
 .links a:hover{
-    font-family: 'Bangers', cursive;
+    font-family: 'Inconsolata', monospace;
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.9s;
@@ -124,7 +122,7 @@ header .nav-box .links{
 /*End of the navigation boxes on the upper right hand side*/
 h1{
     display: flex;
-    font-family: 'Bangers', cursive;
+    font-family: 'Inconsolata', monospace;
     font-size: 40px;
     letter-spacing: 2px;
     /* margin-right: auto; */
@@ -139,10 +137,10 @@ h1{
     margin: 2.5% auto;
     width:50%;
 }
-.top-img:hover{
+/* .top-img:hover{
     transform: scale(1.05);
     transition: 1s;
-}
+} */
 
 /*End of the Top img section*/
 
@@ -181,13 +179,17 @@ h1{
 footer{
     margin: 3% auto;
     font-size: 40px;
-    font-family: 'Bangers', cursive;
+    font-family: 'Inconsolata', monospace;
     text-align: center;
 }
 .footer-box{
-    background-color: darkslategray;
+    background-color: rgb(96, 94, 190);
+    padding: 0.5%;
 }
-
+footer p{
+    padding-bottom: 2%;
+    color: ivory;
+}
 .contact{
     color: ghostwhite;
     text-decoration: none;
@@ -213,7 +215,7 @@ footer{
 
 @media (max-width: 500px) {
     *{
-    font-family: 'Bangers', cursive;
+    font-family: 'Inconsolata', monospace;
 }
 /* START FOR THE HEADER/ TOP OF THE PAGE */
 
@@ -270,7 +272,7 @@ footer{
 /* ******* FOOTER SECTION CSS  ******** */
 
     footer{
-        font-family: 'Bangers', cursive;
+        font-family: 'Inconsolata', monospace;
         text-align: center;
         padding-bottom: 3%;
     }
@@ -285,5 +287,5 @@ footer{
 /*  *** MEDIA QUERY *** *** FOR SCREENS 800px *** */
 
 @media (max-width: 800px){
-    
+
 }
