@@ -211,7 +211,7 @@ footer{
 /* MEDIA QUERY: FOR SCREENS 500px and under */
 
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     *{
     font-family: 'Bangers', cursive;
 }
@@ -282,3 +282,8 @@ footer{
 /* ********************************** */
 
 
+/*  *** MEDIA QUERY *** *** FOR SCREENS 800px *** */
+
+@media (max-width: 800px){
+    
+}
