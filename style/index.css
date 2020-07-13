@@ -215,7 +215,9 @@ footer a{
 
 @media(max-width: 500px){
     h1{
-        padding:3%;
+        width: 100%;
+        padding-top:3%;
+        padding-bottom:3%;
     }
     * {
         font-family: 'Inconsolata', monospace;
@@ -308,7 +310,9 @@ footer a{
 
 @media(max-width: 800px){
     h1{
-        padding:3%;
+        width: 100%;
+        padding-top:3%;
+        padding-bottom:3%;
     }
     .links { 
         width:100%; 
@@ -387,5 +391,5 @@ footer a{
     }
 }
 
-/* FOR Below 360px */
+/* For Below 360px it is fin but Page breaks at 358px  */
 
