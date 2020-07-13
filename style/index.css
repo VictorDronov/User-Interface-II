@@ -66,6 +66,7 @@ body{
     /* border: solid 1px black; */
     /* width: 100%; */
     margin: 0 auto;
+    background-image: url('Sky.jpg');
 }
 html{
     font-size: 62.5%;
@@ -85,7 +86,7 @@ img {
 
 header .nav-box{
     display: flex;
-    background-color: darkslategray;
+    background-color: skyblue;
     padding: 3%;
     /* For edge and explorer */
     -ms-display: flex;
@@ -107,7 +108,7 @@ header .nav-box .links{
     font-family: 'Inconsolata', monospace;    
     text-decoration: none;
     color: ghostwhite;
-    border: 2px solid darkslategray;
+    /* border: 2px solid darkslategray; */
 }
 .links a:hover{
     font-family: 'Inconsolata', monospace;
@@ -148,6 +149,7 @@ h1{
 
 /*Start of the Mid section*/
 
+
 .outside-section{
     width: 100%;
 }
@@ -159,7 +161,6 @@ h1{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin: 3% auto;
 }
 .inside-top-div div{
     width: 25%;
@@ -168,7 +169,8 @@ h1{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin: 3% auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .inside-botom-div div{
     width: 25%;
@@ -183,7 +185,7 @@ footer{
     text-align: center;
 }
 .footer-box{
-    background-color: rgb(96, 94, 190);
+    background-color: skyblue;
     padding: 1%;
 }
 footer p{
@@ -221,6 +223,8 @@ footer p{
 
     .links { 
         width:100%; 
+        flex-direction: column;
+        text-align: center;
     }
     .links a{
         font-size: 13px;
@@ -249,19 +253,13 @@ footer p{
 /* THIS SECTION IS FOR THE PROJECT IMAGES */
 
 
-.inside-top-div, .inside-botom-div{
+.outside-section div{
+    width: 50%;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%; 
-    align-content: center;
-    justify-content: space-around;
 }
-.outside-section div div{
-    padding: 2%;
-}
-.inside-botom-div div{
-    padding: 2%;
-}
+
 
 
 
@@ -275,6 +273,7 @@ footer p{
         font-family: 'Inconsolata', monospace;
         text-align: center;
         padding-bottom: 3%;
+        font-size: 20px;
     }
     .contact{
         font-size: 20px;
