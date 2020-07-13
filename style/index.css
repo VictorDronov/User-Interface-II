@@ -116,7 +116,7 @@ header .nav-box .links{
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.9s;
-    color: rgb(119, 10, 10);
+    color: rgb(148, 141, 141);
     box-sizing: border-box;
     transform: scale(1.5);
 }
@@ -125,7 +125,7 @@ header .nav-box .links{
 h1{
     display: flex;
     font-family: 'Bangers', cursive;
-    font-size: 250%;
+    font-size: 40px;
     letter-spacing: 2px;
     /* margin-right: auto; */
     width: 40%;
@@ -208,10 +208,10 @@ footer{
 /* --------------------------- */
 
 
-/* MEDIA QUERY: FOR SCREENS 400px and under */
+/* MEDIA QUERY: FOR SCREENS 500px and under */
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     *{
     font-family: 'Bangers', cursive;
 }
@@ -267,7 +267,7 @@ footer{
 /* END OF THE PROJECT IMAGES SECTION */
 
 
-/* **************FOOTER SECTION CSS*********** */
+/* ******* FOOTER SECTION CSS  ******** */
 
     footer{
         font-family: 'Bangers', cursive;
@@ -279,80 +279,6 @@ footer{
     }
 }
 
-
-/* MEDIA QUERIE FOR  */
-
-
-/* MEDIA QUERY: FOR SCREENS 768px and under */
+/* ********************************** */
 
 
-@media screen and (max-width: 768px) {
-    *{
-    font-family: 'Bangers', cursive;
-}
-/* START FOR THE HEADER/ TOP OF THE PAGE */
-
-    .links { 
-        width:100%; 
-    }
-    .links a{
-        font-size: 13px;
-    }
-    header .nav-box{
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
-        padding: 0%;
-    }
-    .nav-box{
-        padding: 0%;
-    }
-    .nav-box h1{
-        margin: 0 auto;
-    }
-
-    .title{
-        font-size: 20px;
-        letter-spacing: normal;
-        justify-content: center;
-    }
-
-/* ******END FOR THE TOP OF THE PAGE******** */
-
-/* THIS SECTION IS FOR THE PROJECT IMAGES */
-
-
-.inside-top-div, .inside-botom-div{
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%; 
-    align-content: center;
-    justify-content: space-around;
-}
-.outside-section div div{
-    padding: 2%;
-}
-.inside-botom-div div{
-    padding: 2%;
-}
-
-
-
-
-/* END OF THE PROJECT IMAGES SECTION */
-
-
-/* **************FOOTER SECTION CSS*********** */
-
-    footer{
-        font-family: 'Bangers', cursive;
-        text-align: center;
-        padding-bottom: 3%;
-    }
-    .contact{
-        font-size: 20px;
-    }
-}
-
-
-/* MEDIA QUERIE FOR  */
