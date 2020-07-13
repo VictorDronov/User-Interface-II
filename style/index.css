@@ -177,17 +177,17 @@ h1{
 
 /*Start Of The Footer Section*/
 footer{
-    margin: 3% auto;
+    margin: 2% auto;
     font-size: 40px;
     font-family: 'Inconsolata', monospace;
     text-align: center;
 }
 .footer-box{
     background-color: rgb(96, 94, 190);
-    padding: 0.5%;
+    padding: 1%;
 }
 footer p{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     color: ivory;
 }
 .contact{
@@ -195,7 +195,7 @@ footer p{
     text-decoration: none;
 }
 .contact:hover{
-    color: rgb(119, 10, 10);
+    /* color: rgb(119, 10, 10); */
     text-decoration: none;
     letter-spacing: 4px;
     transition: 0.8s;
