@@ -50,51 +50,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Media Queries: Tablet Landscape */
 
-/* @media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-} */
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 400px) {
-    *{
-    font-family: 'Bangers', cursive;
-}
-    .links { 
-        width:100%; 
-    }
-    .links a{
-        font-size: 13px;
-    }
-    header .nav-box{
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
-        padding: 0%;
-    }
-    .nav-box{
-        padding: 0%;
-    }
-    .nav-box h1{
-        margin: 0%;
-    }
-
-    .title{
-        font-size: 20px;
-        letter-spacing: normal;
-        justify-content: center;
-    }
-    footer{
-        font-family: 'Bangers', cursive;
-        text-align: center;
-        padding-bottom: 3%;
-    }
-    .contact{
-        font-size: 20px;
-    }
-}
 
 
 
@@ -169,7 +125,7 @@ header .nav-box .links{
 h1{
     display: flex;
     font-family: 'Bangers', cursive;
-    font-size: 40px;
+    font-size: 250%;
     letter-spacing: 2px;
     /* margin-right: auto; */
     width: 40%;
@@ -196,6 +152,9 @@ h1{
 
 .outside-section{
     width: 100%;
+}
+.top-div-control, .bottom-div-control{
+    display: flex;
 }
 
 .inside-top-div{
@@ -247,3 +206,153 @@ footer{
 
 /*THIS IS FOR THE MAIN PAGE END*/
 /* --------------------------- */
+
+
+/* MEDIA QUERY: FOR SCREENS 400px and under */
+
+
+@media screen and (max-width: 400px) {
+    *{
+    font-family: 'Bangers', cursive;
+}
+/* START FOR THE HEADER/ TOP OF THE PAGE */
+
+    .links { 
+        width:100%; 
+    }
+    .links a{
+        font-size: 13px;
+    }
+    header .nav-box{
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        padding: 0%;
+    }
+    .nav-box{
+        padding: 0%;
+    }
+    .nav-box h1{
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 20px;
+        letter-spacing: normal;
+        justify-content: center;
+    }
+
+/* ******END FOR THE TOP OF THE PAGE******** */
+
+/* THIS SECTION IS FOR THE PROJECT IMAGES */
+
+
+.inside-top-div, .inside-botom-div{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%; 
+    align-content: center;
+    justify-content: space-around;
+}
+.outside-section div div{
+    padding: 2%;
+}
+.inside-botom-div div{
+    padding: 2%;
+}
+
+
+
+
+/* END OF THE PROJECT IMAGES SECTION */
+
+
+/* **************FOOTER SECTION CSS*********** */
+
+    footer{
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .contact{
+        font-size: 20px;
+    }
+}
+
+
+/* MEDIA QUERIE FOR  */
+
+
+/* MEDIA QUERY: FOR SCREENS 768px and under */
+
+
+@media screen and (max-width: 768px) {
+    *{
+    font-family: 'Bangers', cursive;
+}
+/* START FOR THE HEADER/ TOP OF THE PAGE */
+
+    .links { 
+        width:100%; 
+    }
+    .links a{
+        font-size: 13px;
+    }
+    header .nav-box{
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        padding: 0%;
+    }
+    .nav-box{
+        padding: 0%;
+    }
+    .nav-box h1{
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 20px;
+        letter-spacing: normal;
+        justify-content: center;
+    }
+
+/* ******END FOR THE TOP OF THE PAGE******** */
+
+/* THIS SECTION IS FOR THE PROJECT IMAGES */
+
+
+.inside-top-div, .inside-botom-div{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%; 
+    align-content: center;
+    justify-content: space-around;
+}
+.outside-section div div{
+    padding: 2%;
+}
+.inside-botom-div div{
+    padding: 2%;
+}
+
+
+
+
+/* END OF THE PROJECT IMAGES SECTION */
+
+
+/* **************FOOTER SECTION CSS*********** */
+
+    footer{
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .contact{
+        font-size: 20px;
+    }
+}
+
+
+/* MEDIA QUERIE FOR  */
