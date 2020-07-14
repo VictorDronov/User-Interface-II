@@ -1,1 +1,392 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+/* ------------------------ */
+/*THIS IS FOR THE MAIN PAGE */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Start of the all section*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@577&family=Trade+Winds&display=swap');
+
+*{
+    font-size: 62.5%;
+}
+body{
+    /* border: solid 1px black; */
+    /* width: 100%; */
+    margin: 0 auto;
+    background-image: url('Sky.jpg');
+}
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
+
+/*End of the all section*/
+
+/*Start of the Header Section*/
+
+/*navigation boxes on the uppder right hand side*/
+
+
+header .nav-box{
+    display: flex;
+    background-color: skyblue;
+    padding: 3%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+header .nav-box .links{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.title{
+    justify-content: flex-start;
+}
+.links{
+    font-size: 25px;
+    width: 50%
+}
+.links a{
+    font-family: 'Trade Winds', cursive;    
+    text-decoration: none;
+    color: ghostwhite;
+    /* border: 2px solid darkslategray; */
+}
+.links a:hover{
+    font-family: 'Trade Winds', cursive;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.9s;
+    color: rgb(148, 141, 141);
+    box-sizing: border-box;
+    transform: scale(1.5);
+}
+
+/*End of the navigation boxes on the upper right hand side*/
+h1{
+    display: flex;
+    font-family: 'Trade Winds', cursive;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    /* margin-right: auto; */
+    width: 40%;
+    color: ghostwhite;
+    justify-content: center;
+}
+/*top img section start*/
+.top-img{
+    display: flex;
+    justify-content: center;
+    margin: 2.5% auto;
+    width:50%;
+}
+/* .top-img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+} */
+
+/*End of the Top img section*/
+
+/*End of the Header section*/
+
+/*Start of the Mid section*/
+
+
+.outside-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .top-div-control, .bottom-div-control{
+    display: flex;
+} */
+
+.inside-top-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+.inside-top-div div{
+    width: 30%; 
+}
+.inside-botom-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+.inside-botom-div div{
+    width: 30%;
+}
+/*End of the middle Section*/
+
+/*Start Of The Footer Section*/
+footer{
+    margin: 2% auto;
+    font-size: 40px;
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+}
+.footer-box{
+    background-color: skyblue;
+    padding: 1%;
+}
+footer p{
+    padding-bottom: 3%;
+    color: ivory;
+}
+.contact{
+    color: ghostwhite;
+    text-decoration: none;
+}
+.contact:hover{
+    /* color: rgb(119, 10, 10); */
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: 0.8s;
+}
+footer a{
+    border: 2px solid black;
+    padding: 0.5%;
+    border-radius: 25px;
+}
+
+
+
+
+/*End of the Footer Section*/
+
+/*THIS IS FOR THE MAIN PAGE END*/
+/* --------------------------- */
+
+
+/* MEDIA QUERY: FOR SCREENS 500px and under */
+
+@media(max-width: 500px){
+    h1{
+        width: 100%;
+        padding-top:3%;
+        padding-bottom:3%;
+    }
+    * {
+        font-family: 'Inconsolata', monospace;
+    }
+/* START FOR THE HEADER/ TOP OF THE PAGE */
+    .links { 
+        width:100%; 
+        flex-direction: column;
+        text-align: center;
+    }
+    .links a{
+        font-size: 13px;
+        padding: 2%;
+    }
+    header .nav-box {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        padding: 0%;
+    }
+    .nav-box {
+        padding: 0%;
+    }
+    .nav-box h1 {
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 20px;
+        letter-spacing: normal;
+        justify-content: center;
+    }
+
+/* ******END FOR THE TOP OF THE PAGE******** */
+
+/* THIS SECTION IS FOR THE PROJECT IMAGES */
+
+.outside-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inside-top-div {
+    flex-direction: column;
+    width: 35%;
+    flex-wrap: wrap;
+}
+.inside-top-div div{
+    width: 100%;
+}
+.inside-botom-div {
+    flex-direction: column;
+    width: 35%;
+    flex-wrap: wrap;
+}
+.inside-botom-div div{
+    width: 100%;
+}
+
+
+
+
+
+/* END OF THE PROJECT IMAGES SECTION */
+
+
+/* ******* FOOTER SECTION CSS  ******** */
+
+    footer {
+        font-family: 'Inconsolata', monospace;
+        text-align: center;
+        padding-bottom: 3%;
+        font-size: 20px;
+    }
+    .contact {
+        font-size: 20px;
+    }
+    footer a{
+        border: 1px solid black;
+        padding: 0.5%;
+        border-radius: 15px;
+    }
+}
+
+/* ********************************** */
+
+/* MEDIA QUERY for 800px screen size */
+
+@media(max-width: 800px){
+    h1{
+        width: 100%;
+        padding-top:3%;
+        padding-bottom:3%;
+    }
+    .links { 
+        width:100%; 
+        flex-direction: column;
+        text-align: center;
+    }
+    .links a{
+        font-size: 13px;
+        padding: 2%;
+    }
+    header .nav-box {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        padding: 0%;
+    }
+    .nav-box {
+        padding: 0%;
+    }
+    .nav-box h1 {
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 20px;
+        letter-spacing: normal;
+        justify-content: center;
+    }
+/* THIS SECTION IS FOR THE PROJECT IMAGES */
+
+    .outside-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .inside-top-div {
+        flex-direction: column;
+        width: 35%;
+        flex-wrap: wrap;
+    }
+    .inside-top-div div{
+        width: 100%;
+        padding-top: 5%;
+    }
+    .inside-botom-div {
+        flex-direction: column;
+        width: 35%;
+        flex-wrap: wrap;
+    }
+    .inside-botom-div div{
+        width: 100%;
+        padding-top: 5%;
+    }
+
+
+/* END OF THE PROJECT IMAGES SECTION */
+    /* ******* FOOTER SECTION CSS  ******** */
+
+    footer {
+        font-family: 'Inconsolata', monospace;
+        text-align: center;
+        padding-bottom: 3%;
+        font-size: 20px;
+    }
+    .contact {
+        font-size: 20px;
+    }
+    footer a{
+        border: 1px solid black;
+        padding: 0.5%;
+        border-radius: 15px;
+    }
+}
+
+/* For Below 360px it is fin but Page breaks at 358px  */
+
